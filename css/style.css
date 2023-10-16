@@ -19,18 +19,48 @@ body {
   color: #ffcc00 !important;
 }
 
+/* Add custom styles here */
+
 /* Hero section styles */
 .jumbotron {
-  background-image: url('your-hero-image.jpg');
-  background-size: cover;
-  color: #fff;
+  position: relative;
+  overflow: hidden;
+  padding: 0;
   text-align: center;
-  padding: 100px;
 }
 
+/* Add custom styles here */
+
+/* Hero section styles */
+.jumbotron {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  text-align: center;
+}
+
+.hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/creativecanvaslogo.jpeg'); /* Update the path to your background image */
+  background-size: cover;
+  background-position: center;
+  opacity: 0.6; /* Adjust the opacity to control the visibility of the background image */
+  z-index: -1;
+}
+
+/* Additional styling for the foreground content */
 .jumbotron h1 {
   font-size: 3rem;
+  color: #fff;
 }
+
+/* Adjust any other styles as needed */
+
+/* Rest of your CSS styles */
 
 /* Work section styles */
 .card {
