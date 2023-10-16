@@ -1,11 +1,76 @@
+/* Add custom styles here */
 
-
-  /* css/index.css */
-
-.hero-banner {
-    background-color: #403c57;
-    /* Other styles for your hero banner */
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
 }
-@media (min-width: 992px) {
-    .rounded-lg-3 { border-radius: .3rem; }
+
+/* Navigation bar styles */
+.navbar {
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar a {
+  color: #fff !important;
+}
+
+.navbar a:hover {
+  color: #ffcc00 !important;
+}
+
+/* Hero section styles */
+.jumbotron {
+  background-image: url('your-hero-image.jpg');
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px;
+}
+
+.jumbotron h1 {
+  font-size: 3rem;
+}
+
+/* Work section styles */
+.card {
+  margin: 20px 0;
+}
+
+.card-title {
+  font-size: 1.25rem;
+}
+
+/* Skills section styles */
+#skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* About/Contact section styles */
+#about {
+  margin-top: 50px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+/* Button styles */
+.btn:hover {
+  box-shadow: 2px 2px 5px #888;
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+  .jumbotron {
+      padding: 50px;
   }
+
+  .jumbotron h1 {
+      font-size: 2rem;
+  }
+}
