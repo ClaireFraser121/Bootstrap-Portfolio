@@ -8,11 +8,11 @@ body {
 /* Navigation bar styles */
 .navbar {
   background-color: #333;
-  color: #fff;
+  color: #751717;
 }
 
 .navbar a {
-  color: #fff !important;
+  color: #af1515 !important;
 }
 
 .navbar a:hover {
