@@ -95,6 +95,11 @@ body {
   font-size: 1.25rem;
 }
 
+/* Custom CSS for card background color */
+.custom-card {
+    background-color: #ef3d79;
+}
+
 /* Skills section styles */
 #skills ul {
   list-style: none;
