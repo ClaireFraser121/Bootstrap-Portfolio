@@ -12,11 +12,11 @@ body {
   }
   
   .navbar a {
-    color: #d2d282 !important; /* Link color (muted yellow) */
+    color: #ffb409 !important; /* Link color (muted yellow) */
   }
   
   .navbar a:hover {
-    color: #e74c3c !important; /* Link color on hover (red) */
+    color:#c6e219  !important; /* Link color on hover (red) */
   }
 
   /* Right-align the text in the navbar */
