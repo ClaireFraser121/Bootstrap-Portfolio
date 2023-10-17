@@ -10,9 +10,9 @@
 <body>
 
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light ">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fff; color: #403c57;">
         <a class="navbar-brand" href="#">
-            <img src="./images/creativecanvaslogo.jpeg" alt="Crative canvas Logo" width="30" height="30">
+            <img src="./images/creativecanvaslogo.jpeg" alt="Creative Canvas Logo" width="30" height="30">
             Claire Fraser
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,7 +21,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#hero">Home</a>
+                    <a class="nav-link" href="#hero-merged">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#work">Work</a>
@@ -36,19 +36,21 @@
         </div>
     </nav>
 
-<!-- Hero Section - Creative Canvas Background -->
-<section id="hero-creativecanvas" class="jumbotron hero-creativecanvas ">
-    <div class="hero-background"></div>
-    <img src="./images/creativecanvaslogo.jpeg">
-</section>
-
-
-<!-- Hero Section - Claire Short Hair Background -->
-<section id="hero-claireshorthair" class="jumbotron hero-claireshorthair bg-dark">
-    <div class="hero-background"></div>
-    <img src="./images/Claire Short hair.jpg" alt="Claire Fraser" class="img-fluid rounded-circle" style="width: 200px; height: auto;">
-    <h1 class="text-white">Claire Fraser</h1>
-    <p class="text-white">I'm a creative spirit with a deep passion for visual art and storytelling...</p>
+<!-- Hero Section - Claire Short Hair and Creative Canvas -->
+<section id="hero-merged" class="jumbotron hero-merged text-center" style="background-color: #403c57; color: #fff;">
+    <div class="container">
+        <div class="row">
+            <!-- Left Section - Claire Short Hair -->
+            <div class="col-md-6">
+                <img src="./images/Claire Short hair.jpg" alt="Claire Fraser" class="img-fluid rounded-circle" style="max-width: 100%; height: 200px;">
+                <p style="font-size: 18px; font-weight: bold; color: #1bcbcb;">I'm a creative spirit with a deep passion for visual art and storytelling...</p>
+            </div>
+            <!-- Right Section - Creative Canvas -->
+            <div class="col-md-6">
+                <img src="./images/creativecanvaslogo.jpeg" alt="Creative Canvas Logo" class="img-fluid">
+            </div>
+        </div>
+    </div>
 </section>
 
 
@@ -61,7 +63,7 @@
         <div class="row">
             <div class="col-lg-4 col-md-6">
                 <div class="card">
-                    <img src="project1.jpg" class="card-img-top" alt="Project 1">
+                    <img src="./images/Prework-.png" class="card-img-top" alt="Project 1">
                     <div class="card-body">
                         <h5 class="card-title">Prework Study</h5>
                         <p class="card-text">Brief overview of the work.</p>
@@ -69,23 +71,21 @@
                     </div>
                 </div>
             </div>
-        <div class="row">
             <div class="col-lg-4 col-md-6">
                 <div class="card">
-                    <img src="project2.jpg" class="card-img-top" alt="Project 2">
+                    <img src="./images/landingPage.png" class="card-img-top" alt="Project 2">
                     <div class="card-body">
-                        <h5 class="card-title">Code refactor</h5>
+                        <h5 class="card-title">Code Refactor</h5>
                         <p class="card-text">Brief overview of the work.</p>
                         <a href="#" class="btn btn-primary">View Project</a>
                     </div>
                 </div>
             </div>
-        <div class="row">
             <div class="col-lg-4 col-md-6">
                 <div class="card">
-                    <img src="project3.jpg" class="card-img-top" alt="Project 3">
+                    <img src="https://placehold.co/600x400" class="card-img-top" alt="Project 3">
                     <div class="card-body">
-                        <h5 class="card-title">CSS grid porfoilo</h5>
+                        <h5 class="card-title">CSS grid portfolio</h5>
                         <p class="card-text">Brief overview of the work.</p>
                         <a href="#" class="btn btn-primary">View Project</a>
                     </div>
@@ -99,9 +99,11 @@
     <section id="skills" class="container">
         <h2>Skills</h2>
         <ul>
-            <li>Skill 1</li>
-            <li>Skill 2</li>
-            <li>Skill 3</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Bootstrap</li>
+            <li>Photoshop</li>
+            <li>Abobe Illustrator</li>
             <!-- Add more skills as needed -->
         </ul>
     </section>
@@ -111,30 +113,8 @@
         <div class="row">
             <div class="col-lg-6">
                 <h2>About Me</h2>
-                <p>I am an enthusiastic and imaginative individual with creativity at the core of my being. My journey has been a colourful exploration of the artistry and storytelling that define me. As a self-taught digital artist, I've skilfully wielded the tools of Photoshop and Illustrator, bringing digital canvases to life with vibrant and evocative visuals. Sketching is my daily ritual, a canvas where inspiration meets the tip of a pencil.<br><br>
+                <p>I am an enthusiastic and imaginative individual with creativity at the core of my being. My journey has been a colorful exploration of the artistry and storytelling that define me. As a self-taught digital artist, I've skillfully wielded the tools of Photoshop and Illustrator, bringing digital canvases to life with vibrant and evocative visuals. Sketching is my daily ritual, a canvas where inspiration meets the tip of a pencil.<br><br>
 
-                    More than just a visual artist, I've recently embarked on a storytelling odyssey. I'm the author behind an unfolding graphic novel and a captivating book. These narratives are windows to my vivid imagination, where I craft tales that transport readers to uncharted realms and provoke thought.
-                    <br><br>
-                    Yet, my creative journey took an intriguing turn when I discovered the world of Front-End Web Development. This newfound avenue marries my artistic sensibilities with the digital realm, introducing me to a canvas where innovation and artistry converge. I'm not merely a student of web development; I'm an artist painting digital experiences that are not only visually captivating but also intuitively user-friendly.
-                    <br><br>
-                    My quest in web development is a harmonious blend of artistry and technology, an endeavour where I'm excited to explore the boundless horizons of creativity and innovation. With every line of code and design, I'm weaving a story that engages, inspires, and enchants.
-                    </p>
-            </div>
-            <div class="col-lg-6">
-                <h2>Contact</h2>
-                <p>Email: clairefraser121@gmail.com</p>
-                <p>Phone: 07961025576</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer Section -->
-    <footer class="text-center py-3">
-        &copy; 2023 Claire Fraser
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
+                More than just a visual artist, I've recently embarked on a storytelling odyssey. I'm the author behind an unfolding graphic novel and a captivating book. These narratives are windows to my vivid imagination, where I craft tales that transport readers to uncharted realms and provoke thought.
+                <br><br>
+                Yet, my creative journey took an intriguing turn when I discovered the world of Front-End Web Development.
