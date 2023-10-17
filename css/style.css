@@ -19,6 +19,22 @@ body {
     color: #e74c3c !important; /* Link color on hover (red) */
   }
 
+  /* Right-align the text in the navbar */
+.navbar-nav {
+    margin-left: auto;
+  }
+  
+  /* Style the navigation items */
+  .navbar-nav .nav-item {
+    text-align: right;
+  }
+  
+  /* Style the navigation links (optional) */
+  .navbar-nav .nav-item .nav-link {
+    padding-right: 1rem; /* Add some right padding between items */
+  }
+  
+
 /* Hero section styles */
 .jumbotron {
   position: relative;
