@@ -2,38 +2,43 @@
 
 /* Body styles */
 body {
-  font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 /* Navigation bar styles */
 .navbar {
-    background-color: #403c57; /* Background color (dark purple) */
-    color: #d2d282; /* Text color (muted yellow) */
-  }
-  
-  .navbar a {
-    color: #ffb409 !important; /* Link color (muted yellow) */
-  }
-  
-  .navbar a:hover {
-    color:#c6e219  !important; /* Link color on hover (red) */
-  }
+    background-color: #403c57;
+    /* Background color (dark purple) */
+    color: #d2d282;
+    /* Text color (muted yellow) */
+}
 
-  /* Right-align the text in the navbar */
+.navbar a {
+    color: #ffb409 !important;
+    /* Link color (muted yellow) */
+}
+
+.navbar a:hover {
+    color: #c6e219 !important;
+    /* Link color on hover (red) */
+}
+
+/* Right-align the text in the navbar */
 .navbar-nav {
     margin-left: auto;
-  }
-  
-  /* Style the navigation items */
-  .navbar-nav .nav-item {
+}
+
+/* Style the navigation items */
+.navbar-nav .nav-item {
     text-align: right;
-  }
-  
-  /* Style the navigation links (optional) */
-  .navbar-nav .nav-item .nav-link {
-    padding-right: 1rem; /* Add some right padding between items */
-  }
-  
+}
+
+/* Style the navigation links (optional) */
+.navbar-nav .nav-item .nav-link {
+    padding-right: 1rem;
+    /* Add some right padding between items */
+}
+
 
 /* Combined Hero Section styles */
 .hero-merged {
@@ -41,63 +46,66 @@ body {
     overflow: hidden;
     padding: 0;
     text-align: center;
-    background-color: #403c57; /* Set the background color */
-  }
-  
-  /* Adjust the layout of the left and right sections */
-  .left-section,
-  .right-section {
+    background-color: #403c57;
+    /* Set the background color */
+}
+
+/* Adjust the layout of the left and right sections */
+.left-section,
+.right-section {
     position: absolute;
     top: 0;
     height: 100%;
     padding: 20px;
-  }
-  
-  .left-section {
+}
+
+.left-section {
     left: 0;
-    right: 50%; /* Adjust this value to control the separation between sections */
-  }
-  
-  .right-section {
-    left: 50%; /* Adjust this value to control the separation between sections */
+    right: 50%;
+    /* Adjust this value to control the separation between sections */
+}
+
+.right-section {
+    left: 50%;
+    /* Adjust this value to control the separation between sections */
     right: 0;
-  }
-  
-  /* Styles for the content within the left and right sections */
-  .left-section img,
-  .right-section img {
+}
+
+/* Styles for the content within the left and right sections */
+.left-section img,
+.right-section img {
     display: block;
     margin: 0 auto;
     margin-top: 20px;
-  }
-  
-  .left-section h1,
-  .right-section h1 {
+}
+
+.left-section h1,
+.right-section h1 {
     font-size: 2rem;
     color: #fff;
     margin-top: 20px;
-  }
-  
-  .left-section p,
-  .right-section p {
+}
+
+.left-section p,
+.right-section p {
     color: #fff;
     margin-top: 20px;
-  }
+}
 
-  .text-custom-color {
+.text-custom-color {
     color: #fbdf02;
 }
 
-  
+
 /* Rest of your CSS styles */
 
 /* Work section styles */
 .card {
-  margin: 20px 0;
+    margin: 20px 0;
 }
 
 .card-title {
-  font-size: 1.25rem;
+    font-size: 1.25rem;
 }
 
 /* Custom CSS for card background color */
@@ -107,34 +115,56 @@ body {
 
 /* Skills section styles */
 #skills ul {
-  list-style: none;
-  padding: 0;
+    list-style: none;
+    padding: 0;
 }
 
 /* About/Contact section styles */
 #about {
-  margin-top: 50px;
+    margin-top: 50px;
 }
+
+.contact-button:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
 
 /* Footer styles */
 footer {
-  background-color: #333;
-  color: #fff;
-  padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
 }
 
 /* Button styles */
 .btn:hover {
-  box-shadow: 2px 2px 5px #888;
+    box-shadow: 2px 2px 5px #888;
+}
+
+/* CSS for hover effect on icons */
+.text-info a:hover {
+    color: #1bcbcb;
+    /* Change the color on hover */
+}
+
+.text-info a i:hover {
+    color: #1bcbcb;
+    /* Change the color of icons on hover */
+}
+
+/* CSS for box shadow on buttons */
+.btn:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    /* Add a box shadow on button hover */
 }
 
 /* Media Query for responsiveness */
 @media (max-width: 768px) {
-  .jumbotron {
-    padding: 50px;
-  }
+    .jumbotron {
+        padding: 50px;
+    }
 
-  .jumbotron h1 {
-    font-size: 2rem;
-  }
+    .jumbotron h1 {
+        font-size: 2rem;
+    }
 }
