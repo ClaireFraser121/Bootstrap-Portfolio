@@ -20,7 +20,7 @@ body {
 }
 
 .navbar a:hover {
-    color: #c6e219 !important;
+    color: #e94077 !important;
     /* Link color on hover (red) */
 }
 
@@ -39,6 +39,16 @@ body {
     padding-right: 1rem;
     /* Add some right padding between items */
 }
+
+.ml-custom {
+    margin-left: 550px; /* Default margin for larger screens */
+
+    /* Adjust the margin for smaller screens (e.g., screens narrower than 768px) */
+    @media (max-width: 768px) {
+        margin-left: 180px; /* Adjust the margin for smaller screens */
+    }
+}
+
 
 
 /* Combined Hero Section styles */
@@ -119,6 +129,23 @@ body {
     list-style: none;
     padding: 0;
 }
+
+.custom-skills-section {
+    background-color: var(--section-background-color, #146f6f);
+}
+
+.custom-icon {
+    color: var(--icon-color, #fff);
+}
+
+.custom-text {
+    color: var(--text-color, #fff);
+}
+
+.custom-text-color {
+    color: var(--section-text-color, #fff);
+}
+
 
 /* About/Contact section styles */
 #about {
