@@ -47,7 +47,15 @@ body {
     @media (max-width: 768px) {
         margin-left: 180px; /* Adjust the margin for smaller screens */
     }
+
+    /* Adjust the margin for mid-size screens (e.g., screens between 768px and 992px) */
+    @media (min-width: 768px) and (max-width: 992px) {
+        margin-left: auto; /* Center the text by setting left and right margins to 'auto' */
+        display: block; /* Ensure it's a block-level element for auto margins to work */
+    }
 }
+
+
 
 
 
@@ -132,6 +140,7 @@ body {
 
 .custom-skills-section {
     background-color: var(--section-background-color, #146f6f);
+    font-family: Lato, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .custom-icon {
