@@ -40,24 +40,21 @@ body {
     /* Add some right padding between items */
 }
 
+/* Media query for screens with min-height: 1180px (max-width: 820px) */
 .ml-custom {
-    /* Default margin for larger screens */
-    margin-left: 550px;
     font-size: 24px; /* Default font size */
+    text-align: center;
+    display: flex;
+    align-items: center; /* Vertically center the text */
+    padding-left: 20px; /* Add some padding to separate the text from the logo on the left */
 
-    /* Adjust the margin and font size for smaller screens (e.g., screens narrower than 768px) */
-    @media (max-width: 768px) {
-        margin-left: 20px; /* Adjust the margin for smaller screens */
+    /* Media query for smaller screens (max-width: 820px) */
+    @media (max-width: 820px) {
         font-size: 18px; /* Adjust the font size for smaller screens */
-    }
-
-    /* Adjust the margin for mid-size screens (e.g., screens between 768px and 992px) */
-    @media (min-width: 768px) and (max-width: 992px) {
-        margin-left: auto; /* Center the text by setting left and right margins to 'auto' */
-        display: block; /* Ensure it's a block-level element for auto margins to work */
+        text-align: center; /* Center the text horizontally */
+        margin-left: auto; /* Reset margin to center text horizontally */
     }
 }
-
 
 
 
