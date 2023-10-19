@@ -96,4 +96,31 @@ Welcome to my portfolio! It's designed to showcase my web development skills and
    ![Footer Section](./images/footerSection.png)
    *Screenshot: The footer section with contact information and links.*
 
-Enjoy your journey exploring my portfolio!
+## Credits
+
+* [Claire Fraser](https://github.com/ClaireFraser121) - Lead Developer
+
+### Third-Party Assets and Tutorials
+
+* **Bootstrap**: Get started with Bootstrap at [Bootstrap Official Documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/).
+
+* **Responsive Web Design Tutorial #5 - Media Queries** by Net Ninja: Follow the tutorial at [YouTube Tutorial](https://www.youtube.com/watch?v=5xzaGSYd7jM).
+
+* **CSS Media Queries & Using Available Space** by Chris Coyier: Explore media queries and space utilization at [CSS-Tricks Article](https://css-tricks.com/css-media-queries/).
+
+* **Responsive Web Design - Media Queries** by W3schools: Learn about responsive web design and media queries at [W3schools Guide](https://www.w3schools.com/css/css_rwd_mediaqueries.asp).
+
+* **GitHub Pages**: For hosting and deployment, visit [GitHub Pages](https://pages.github.com/).
+
+* **40 Best Fonts for Websites (Free and Paid)** by Sergei Davidov: Find a collection of web fonts at [Elementor Blog](https://elementor.com/blog/web-fonts/?utm_source=google&utm_medium=cpc&utm_campaign=11138809851&utm_term=&gclid=CjwKCAjwp8OpBhAFEiwAG7NaEtpFl-64o95Z8l4RsoW5epzXwLWLHA_EEHKaTt1wwtJMsekqswrsJxoC-2oQAvD_BwE).
+
+* **Web Design: Avoid Bright Colors to Improve the UX of Your Website** by Michael Sasorith: Learn about color choices for better UX at [Arcstone Blog](https://www.arcstone.com/blog/web-design-avoid-using-bright-colors-to-improve-the-ux-of-your-website).
+
+* **font-awesome**: Explore font icons at [Font Awesome](https://fontawesome.com/icons).
+
+* **5 Ideas To Design Amazing Hero Banner Typography** by Rafal Tomal: Get typography design ideas for hero banners at [Rafal Tomal's Article](https://rafaltomal.com/5-ideas-to-design-amazing-hero-banner-typography/#:~:text=Use%20a%20big%20and%20thin%20font.&text=Big%20and%20thin%20fonts%20will,Museo%20Sans%2C%20Lato%20or%20Quicksand).
+
+* **How to Benefit from Color Psychology in Your Website Design** by Trajectory: Understand color psychology in web design at [Trajectory's Blog](https://www.trajectorywebdesign.com/blog/web-design-color-psychology/#:~:text=Bright%20colors%20such%20as%20orange,element%20in%20getting%20users'%20attention).
+
+* **Tips for Using a Typographic Hero vs. Hero Imagery** by Suzanne Scacca: Learn about using typography in hero sections at [Telerik Blog](https://www.telerik.com/blogs/tips-using-typographic-hero-imagery).
+
