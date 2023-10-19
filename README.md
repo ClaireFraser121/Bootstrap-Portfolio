@@ -93,7 +93,7 @@ Welcome to my portfolio! It's designed to showcase my web development skills and
 
 6. **Footer Section:** The footer section contains contact information and links.
 
-   ![Footer Section](./images/aboutMeContactSection.png)
+   ![Footer Section](./images/footerSection.png)
    *Screenshot: The footer section with contact information and links.*
 
 Enjoy your journey exploring my portfolio!
