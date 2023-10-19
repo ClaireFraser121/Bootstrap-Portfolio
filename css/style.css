@@ -41,11 +41,14 @@ body {
 }
 
 .ml-custom {
-    margin-left: 550px; /* Default margin for larger screens */
+    /* Default margin for larger screens */
+    margin-left: 550px;
+    font-size: 24px; /* Default font size */
 
-    /* Adjust the margin for smaller screens (e.g., screens narrower than 768px) */
+    /* Adjust the margin and font size for smaller screens (e.g., screens narrower than 768px) */
     @media (max-width: 768px) {
-        margin-left: 180px; /* Adjust the margin for smaller screens */
+        margin-left: 20px; /* Adjust the margin for smaller screens */
+        font-size: 18px; /* Adjust the font size for smaller screens */
     }
 
     /* Adjust the margin for mid-size screens (e.g., screens between 768px and 992px) */
@@ -54,7 +57,6 @@ body {
         display: block; /* Ensure it's a block-level element for auto margins to work */
     }
 }
-
 
 
 
