@@ -86,7 +86,7 @@ Welcome to my portfolio! It's designed to showcase my web development skills and
    ![Skills Section](./images/skillsSection.png)
    *Screenshot: The "Skills" section that showcases my web development proficiencies.*
 
-5. **Get to Know Me:** The "About Me" section provides a glimpse into my creative journey. Learn about my background as a digital artist and storyteller. Additionally, you can connect with me using the "WhatsApp Me" button for any inquiries or discussions.
+5. **Get to Know Me and Contact Me:** The "About Me" section provides a glimpse into my creative journey. Learn about my background as a digital artist and storyteller. Additionally, you can connect with me using the "WhatsApp Me" button for any inquiries or discussions.
 
    ![About Me & Contact Section](./images/aboutMeContactSection.png)
    *Screenshot: The "About Me" and "Contact" section providing insights and easy communication.*
