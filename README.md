@@ -73,35 +73,27 @@ Welcome to my portfolio! It's designed to showcase my web development skills and
 
 2. **Navigate with Ease:** You'll find a top navigation bar that makes it easy to explore different sections of my portfolio. Click on the section names to quickly jump to specific content, such as the hero section, work section, skills section, and about/contact section.
 
+   ![Navigation Bar](./images/desktopNavBar.png) 
+   *Screenshot: The top navigation bar for easy access to different sections.*
+
 3. **Discover My Work:** The "Work" section is where you'll discover a collection of my projects. Each project is showcased with a Bootstrap card, offering a brief overview of the work. Click on the project cards to dive deeper and explore my class project work.
+
+   ![Work Section](./images/worksection.png)
+   *Screenshot: The "Work" section displaying my projects for your exploration.*
 
 4. **Explore My Skills:** In the "Skills" section, you'll find a list of web development skills that I've acquired during my bootcamp journey. Each skill is accompanied by a relevant icon, giving you insights into my capabilities.
 
+   ![Skills Section](./images/skillsSection.png)
+   *Screenshot: The "Skills" section that showcases my web development proficiencies.*
+
 5. **Get to Know Me:** The "About Me" section provides a glimpse into my creative journey. Learn about my background as a digital artist and storyteller. Additionally, you can connect with me using the "WhatsApp Me" button for any inquiries or discussions.
 
-### Portfolio Screenshots
+   ![About Me & Contact Section](./images/aboutMeContactSection.png)
+   *Screenshot: The "About Me" and "Contact" section providing insights and easy communication.*
 
-Here are some screenshots of my portfolio:
+6. **Footer Section:** The footer section contains contact information and links.
 
-![Navigation Bar](./images/desktopNavBar.png) 
-*Screenshot: The top navigation bar for easy access to different sections.*
-
-![Mobile Navigation Bar](./images/mobileNavBar.png)
-*Screenshot: The mobile navigation bar for a seamless experience on smaller screens.*
-
-![Mobile Navigation Bar Open](./images/mobileNavBarOpen.png)
-*Screenshot: The mobile navigation bar, opened to reveal the available sections.*
-
-![Work Section](./images/worksection.png)
-*Screenshot: The "Work" section displaying my projects for your exploration.*
-
-![Skills Section](./images/skillsSection.png)
-*Screenshot: The "Skills" section that showcases my web development proficiencies.*
-
-![About Me & Contact Section](./images/aboutMeContactSection.png)
-*Screenshot: The "About Me" and "Contact" section providing insights and easy communication.*
-
-![Footer Section](./images/aboutMeContactSection.png)
-*Screenshot: The footer section with contact information and links.*
+   ![Footer Section](./images/aboutMeContactSection.png)
+   *Screenshot: The footer section with contact information and links.*
 
 Enjoy your journey exploring my portfolio!
