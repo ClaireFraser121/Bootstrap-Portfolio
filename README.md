@@ -124,3 +124,43 @@ Welcome to my portfolio! It's designed to showcase my web development skills and
 
 * **Tips for Using a Typographic Hero vs. Hero Imagery** by Suzanne Scacca: Learn about using typography in hero sections at [Telerik Blog](https://www.telerik.com/blogs/tips-using-typographic-hero-imagery).
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
+
+## Badges
+
+![Static Badge](https://img.shields.io/badge/License-MIT-brightgreen)
+
+## Features
+
+- **Navigation Bar:** An easy-to-use navigation bar at the top for quick access to different sections of the portfolio.
+
+- **Hero Section:** A visually appealing hero section with a jumbotron that introduces me and sets the tone for the portfolio.
+
+- **Work Section:** A grid of projects presented as Bootstrap cards with project descriptions and links to my class project work.
+
+- **Skills Section:** A section listing the web development skills I've learned during my bootcamp, each accompanied by a relevant icon.
+
+- **About Me & Contact Section:** An "About Me" section providing insights into my creative journey as a digital artist and storyteller, with a "WhatsApp Me" button for easy contact.
+
+- **Responsive Design:** The portfolio is designed to be responsive, ensuring it looks great on various devices and screen sizes.
+
+These features make it easy to explore my work, skills, and creative journey.
+
+## Tests
+
+I manually tested the website's responsiveness on various devices, including mobile phones. During the test, I observed that the navigation bar text margin-left required adjustment to enhance responsiveness. Specifically, the margin-left of the navigation bar text was modified to improve the mobile browsing experience.
+
+To ensure optimal responsiveness, you can make the following adjustment:
+
+1. **Mobile Navigation Bar Text Margin-Left Adjustment:** Open the CSS file (style.css) in your project.
+
+2. Locate the styles for the navigation bar text, which may include properties like `margin-left`.
+
+3. Modify the styles as needed to ensure appropriate spacing for mobile devices. You can use media queries to specify different styles for mobile screens.
+
+4. Save your changes in the CSS file.
+
+By performing these adjustments, you can enhance the mobile responsiveness of the navigation bar text's margin-left.
+
