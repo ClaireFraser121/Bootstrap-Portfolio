@@ -138,9 +138,9 @@ body {
 }
 
 /* Add this to your CSS file or style section */
-/* .project-card { */
-    /* Add your custom styling here */
-  /* } */
+.project-card {
+    background-color: #f09322b8;
+  }
 
   /* Add this to your CSS file or style section */
 .modal {

@@ -132,87 +132,108 @@
             </div>
             <!-- Repeat the above card structure for other projects -->
         </div>
-    </section>
 
-<section>
-<div class="container custom-container" style="width: 40rem;">
-    <div class="card-body">
-        <h5 class="card-title">BeWyld Project Showcase</h2>
+
+        <!-- BeWyld Project Showcase -->
+        <section id="bewyld" class="container custom-container"
+            style="background-color: #f09322b8; border-radius: 10px; padding: 20px; margin-bottom: 20px;">
+            <h3 class="card-title" style="font-size: 24px;">BeWyld Project Showcase</h3>
+
             <p class="card-text">Explore our group project, BeWyld - Train & Meal Prep Coach</p>
-    
-    <!-- Screenshots or Images -->
-    <div class="project-screenshots">
-      <!-- Add your screenshots or images here -->
-      <!-- <img src="./images/BeWyld-Train-Meal-Prep-Coach-Main-page.png" alt="Screenshot of main page">
-      <img src="./images/BeWyld-Train-Meal-Prep-Coach-After-Quiz.png" alt="Screenshot after quiz">
-      <img src="./images/BeWyld-Train-Meal-Prep-Coach-Tone.png" alt="Screenshot after quiz tone">
-    </div> -->
 
-    <!-- Video Demo -->
-    <div class="project-video">
-      <!-- Add your video embed code or link to a video here -->
-      <iframe width="560" height="315" src="https://github-production-user-asset-6210df.s3.amazonaws.com/145933508/289222832-dfa35495-7d59-42d7-8734-6b13133470bf.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231214T222734Z&X-Amz-Expires=300&X-Amz-Signature=bb8cab2c7329d1b05020107c68532453b227409a24ecadd67db6c3c059c915d0&X-Amz-SignedHeaders=host&actor_id=145777291&key_id=0&repo_id=725296551" frameborder="0"
-        allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    </div>
+            <!-- Container with inner background color -->
+            <div id="project-card" class="project-video-container"
+                style="background-color: #403c57; border-radius: 5px; padding: 5px;">
+                <!-- Video Demo -->
+                <div class="project-video embed-responsive embed-responsive-16by9">
+                    <!-- Add your video embed code or link to a video here -->
+                    <iframe class="embed-responsive-item" src="./images/vid-BeWyld-Train-&-Meal-Prep-Coach-56.mp4"
+                        allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+            </div>
 
-    <!-- Button to Project Webpage -->
-    <button id="viewProjectBtn" onclick="openProjectModal()">View Project</button>
 
-    <!-- The Modal -->
-<div id="projectModal" class="modal">
-    <!-- Modal content -->
-    <div class="modal-content">
-      <span class="close" onclick="closeProjectModal()">&times;</span>
-  
-      <!-- BeWyld Train & Meal Prep Coach Section -->
-      <section id="bewyld" class="container custom-container" style="background-color: #c7e2179e; border-radius: 10px; padding: 20px; margin-bottom: 20px;">
-        <h2 style="font-family: Lato, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold;">BeWyld Train & Meal Prep Coach</h2>
-        <p>
-          BeWyld Train & Meal Prep Coach is a dynamic web application designed to empower users on their fitness journey by providing a personalised and comprehensive approach to workouts and nutrition. This project is driven by a passion for facilitating efficient and tailored fitness experiences for enthusiasts who aspire to achieve their health and wellness goals.
-        </p>
-  
-        <!-- Key Components -->
-        <h3>Key Components:</h3>
-        <ul>
-          <li>Interactive Workout Quiz</li>
-          <li>Local Save Function</li>
-          <li>Saved Results Page</li>
-          <li>Regeneration Button</li>
-          <li>Book a Trainer Page</li>
-          <li>About Me Page</li>
-          <li>Meal Pack Model</li>
-          <li>PDF Link to BeWYLD Cafe Menu</li>
-        </ul>
-  
-        <!-- User Story -->
-        <h3>User Story:</h3>
-        <p>
-          As a user visiting the BeWyld website, I want to access personalised workout programs and discover a tailored nutritional meal prep menu. By doing so, I aim to achieve my fitness goals and lead a healthier lifestyle.
-        </p>
-  
-        <!-- Importance and Value -->
-        <h3>Importance and Value:</h3>
-        <ul>
-          <li>It provides a user-friendly and personalised fitness solution.</li>
-          <li>The interactive quiz and dynamic content keep users engaged and motivated.</li>
-          <li>Local saving enables seamless progress tracking.</li>
-          <li>The inclusion of professional trainers enhances the potential for users to receive expert guidance.</li>
-          <li>The combination of workouts and meal planning promotes a holistic approach to health.</li>
-          <li>Transparency through the "About Me" page fosters trust and a sense of community.</li>
-          <li>Direct links to the BeWYLD website's offerings expand users' access to relevant resources.</li>
-        </ul>
-  
-        <!-- Conclusion -->
-        <p>
-          In summary, BeWyld Train & Meal Prep Coach is more than a fitness app; it's a supportive platform that empowers users to embark on a transformative health and wellness journey.
-        </p>
-      </section>
-    </div>
-  </div>
-  
 
-</section>
+            <!-- Button to Project Webpage -->
+            <button id="viewProjectBtn" onclick="openProjectModal()" class="btn btn-primary mt-3 mb-3">Learn More</button>
 
+            <!-- The Modal -->
+            <div id="projectModal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close" onclick="closeProjectModal()">&times;</span>
+
+
+                    <!-- BeWyld Train & Meal Prep Coach Section -->
+                    <section id="bewyld" class="container custom-container"
+                        style="background-color: #c7e2179e; border-radius: 10px; padding: 20px; margin-bottom: 20px;">
+                        <h2
+                            style="font-family: Lato, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold;">
+                            BeWyld Train & Meal Prep Coach</h2>
+                        <p>
+                            BeWyld Train & Meal Prep Coach is a dynamic web application designed to empower
+                            users on their fitness journey by providing a personalised and comprehensive
+                            approach to workouts and nutrition. This project is driven by a passion for
+                            facilitating efficient and tailored fitness experiences for enthusiasts who
+                            aspire to achieve their health and wellness goals.
+                        </p>
+
+                        <!-- Key Components -->
+                        <h3>Key Components:</h3>
+                        <ul>
+                            <li>Interactive Workout Quiz</li>
+                            <li>Local Save Function</li>
+                            <li>Saved Results Page</li>
+                            <li>Regeneration Button</li>
+                            <li>Book a Trainer Page</li>
+                            <li>About Me Page</li>
+                            <li>Meal Pack Model</li>
+                            <li>PDF Link to BeWYLD Cafe Menu</li>
+                        </ul>
+
+                        <!-- User Story -->
+                        <h3>User Story:</h3>
+                        <p>
+                            As a user visiting the BeWyld website, I want to access personalised workout
+                            programs and discover a tailored nutritional meal prep menu. By doing so, I aim
+                            to achieve my fitness goals and lead a healthier lifestyle.
+                        </p>
+
+                        <!-- Importance and Value -->
+                        <h3>Importance and Value:</h3>
+                        <ul>
+                            <li>It provides a user-friendly and personalised fitness solution.</li>
+                            <li>The interactive quiz and dynamic content keep users engaged and motivated.
+                            </li>
+                            <li>Local saving enables seamless progress tracking.</li>
+                            <li>The inclusion of professional trainers enhances the potential for users to
+                                receive expert guidance.</li>
+                            <li>The combination of workouts and meal planning promotes a holistic approach
+                                to health.</li>
+                            <li>Transparency through the "About Me" page fosters trust and a sense of
+                                community.</li>
+                            <li>Direct links to the BeWYLD website's offerings expand users' access to
+                                relevant resources.</li>
+                        </ul>
+
+                        <!-- Conclusion -->
+                        <p>
+                            In summary, BeWyld Train & Meal Prep Coach is more than a fitness app; it's a
+                            supportive platform that empowers users to embark on a transformative health and
+                            wellness journey.
+                        </p>
+                        <!-- Button to Project Webpage -->
+                        <a href="https://annamkhalid.github.io/bewyld-api-project/" target="_blank"
+                            class="btn btn-primary mt-3 mb-3">
+                            View Website
+                        </a>
+                    </section>
+                </div>
+            </div>
+
+
+        </section>
+    </section>
     <!-- Skills Section -->
     <section id="skills" class="container custom-skills-section"
         style="--section-background-color: #146f6f; border-radius: 10px; padding: 20px; margin-bottom: 20px;">
@@ -341,6 +362,12 @@
                             Web
                             Development.
                         </p>
+
+                        <!-- Link to the project webpage -->
+                        <p>
+                            Visit the project website: <a href="https://annamkhalid.github.io/bewyld-api-project/"
+                                target="_blank">BeWyld Train & Meal Prep Coach</a>
+                        </p>
                     </section>
                 </div>
 
@@ -395,7 +422,7 @@
 
 
     <!-- Link to your projectScript.js file -->
-<script src="./javaScript/projectScript.js"></script>
+    <script src="./script/projectScript.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
