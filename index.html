@@ -135,11 +135,16 @@
 
 
         <!-- BeWyld Project Showcase -->
-        <section id="bewyld" class="container custom-container"
+        <section id="bewyld-section" class="container custom-container"
             style="background-color: #f09322b8; border-radius: 10px; padding: 20px; margin-bottom: 20px;">
             <h3 class="card-title" style="font-size: 24px;">BeWyld Project Showcase</h3>
+            <p class="card-text">Welcome to the BeWyld - Train & Meal Prep Coach!</p>
+            <p class="card-text">Explore our group project, </p>
 
-            <p class="card-text">Explore our group project, BeWyld - Train & Meal Prep Coach</p>
+            <p>BeWyld's Train & Meal Prep Coach is an innovative web application aimed at empowering users on their
+                fitness journey. By offering a personalized and comprehensive approach to workouts and nutrition, BeWyld
+                facilitates efficient and tailored fitness experiences for enthusiasts striving to achieve their health
+                and wellness goals.</p>
 
             <!-- Container with inner background color -->
             <div id="project-card" class="project-video-container"
@@ -154,19 +159,19 @@
 
 
 
-            <!-- Button to Project Webpage -->
-            <button id="viewProjectBtn" onclick="openProjectModal()" class="btn btn-primary mt-3 mb-3">Learn More</button>
+            <!-- Button to open BeWyld project modal -->
+            <button id="viewBeWyldProjectBtn" onclick="openBeWyldModal()" style="background-color: #1cc7ce;">View BeWyld
+                Project</button>
 
-            <!-- The Modal -->
-            <div id="projectModal" class="modal">
-                <!-- Modal content -->
+
+            <!-- Modal for BeWyld -->
+            <div id="bewyld-modal" class="modal">
                 <div class="modal-content">
-                    <span class="close" onclick="closeProjectModal()">&times;</span>
-
+                    <span class="close" onclick="closeBeWyldModal()">&times;</span>
 
                     <!-- BeWyld Train & Meal Prep Coach Section -->
                     <section id="bewyld" class="container custom-container"
-                        style="background-color: #c7e2179e; border-radius: 10px; padding: 20px; margin-bottom: 20px;">
+                        style="background-color: #c7e2179e;  padding: 20px; margin-bottom: 20px;">
                         <h2
                             style="font-family: Lato, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold;">
                             BeWyld Train & Meal Prep Coach</h2>
@@ -232,6 +237,96 @@
             </div>
 
 
+        </section>
+        <!-- The TBT Education App Section -->
+
+        <section id="tbt-education-app" class="container custom-container"
+            style="background-color: #f2ee0c; border-radius: 10px; padding: 20px; margin-bottom: 20px;">
+            <h2 style="font-family: Lato, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold;">The TBT
+                Education App</h2>
+            <p>
+                The TBT Education App is a React-based application designed to provide an enriching learning experience
+                for
+                children aged 7-14 participating in an empowerment course. The app offers interactive features,
+                including:
+            </p>
+
+            <!-- Features List -->
+            <ul>
+                <li>Fun Facts Black History API Generator</li>
+                <li>Weekly Quiz</li>
+                <li>YouTube "Did You Know" Video Page</li>
+                <li>API Affiliate Link guiding young learners to a dedicated Amazon book page titled "Righteous Reading"
+                </li>
+            </ul>
+
+            <!-- Video Demo -->
+            <div class="project-video embed-responsive embed-responsive-16by9">
+                <!-- Add your video embed code or link to a video here -->
+                <iframe class="embed-responsive-item" src="/images/TBTwebsiteFootage.webm" frameborder="0"
+                    allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+
+            <!-- Button to open The TBT Education App project modal -->
+            <button id="viewTBTEducationAppProjectBtn" onclick="openTBTEducationAppModal()"
+                style="background-color: #1cc7ce;">View TBT Education App Project</button>
+
+            <!-- The TBT Education App Modal -->
+            <div id="tbt-education-app-modal" class="modal">
+
+                <!-- Modal content for The TBT Education App -->
+                <span class="close" onclick="closeTBTEducationAppModal()">&times;</span>
+
+
+                <!-- TBT Education App Section -->
+                <section id="tbt-education-app-details" class="container custom-container"
+                    style="background-color: #c7e217; border-radius: 10px; padding: 20px; margin-bottom: 20px;">
+                    <h2 style="font-family: Lato, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold;">
+                        <!-- Modal Title -->
+                        <h2>The TBT Education App</h2>
+
+                        <!-- Description -->
+                        <h3>Description</h3>
+                        <p>The TBT Education App is a React-based application designed to provide an enriching learning
+                            experience for children aged 7-14 participating in an empowerment course. The app offers
+                            interactive features, including a "Fun Facts" Black History API generator, a weekly quiz, a
+                            YouTube "Did You Know" video page, and an API affiliate link guiding young learners to a
+                            dedicated Amazon book page titled "Righteous Reading."</p>
+
+                        <!-- Motivation -->
+                        <h3>Motivation</h3>
+                        <p>The motivation behind the TBT Education App is to engage and empower children within the
+                            specified age range, fostering a positive educational experience aligned with their
+                            empowerment
+                            course. The app aims to make learning enjoyable and impactful through carefully curated
+                            content
+                            and interactive features.</p>
+
+                        <!-- Problem Solved -->
+                        <h3>Problem Solved</h3>
+                        <p>The TBT Education App addresses the need for an educational platform that combines
+                            interactive
+                            elements, informative content, and a user-friendly interface to enhance the learning journey
+                            for
+                            young minds interested in Black History education.</p>
+
+                        <!-- What I Learned -->
+                        <h3>What I Learned</h3>
+                        <p>Throughout the development of this project, the team gained valuable experience in utilizing
+                            ReactJS, integrating external APIs, deploying applications with Netlify, and implementing
+                            various libraries and technologies. The project emphasized good coding standards,
+                            front-end/UI
+                            design, and collaboration within a development team.</p>
+
+                        <!-- Link to the project webpage -->
+                        <p>
+                            Visit the project website: <a href="https://tbt-education-app.netlify.app/"
+                                target="_blank">The
+                                TBT Education App</a>
+                        </p>
+                </section>
+            </div>
+            </div>
         </section>
     </section>
     <!-- Skills Section -->
